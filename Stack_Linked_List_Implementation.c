@@ -37,7 +37,7 @@ int  main(){
 		}
 	}
 }
-
+//push the data into stack
 void push(){
 	int data;
 	newnode = (struct node*)malloc(sizeof(struct node));
@@ -64,7 +64,7 @@ void push(){
 	
 	printf("data is pushed into stack");
 }
-
+//pop the element from top of the stack
 void pop(){
 	if(head == NULL){
 		printf("Underflow");
@@ -77,7 +77,7 @@ void pop(){
 	}
 	printf("data popped");
 }
-
+//display the stack elements
 void display(){
 	printf("\n");
 	if(head == NULL){
