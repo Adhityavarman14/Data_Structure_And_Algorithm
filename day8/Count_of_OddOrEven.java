@@ -4,9 +4,9 @@ public class AA {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub\
 		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
+		String a = sc.nextLine();
 		
-		char arr[] = String.valueOf(a).toCharArray();
+		char arr[] = a.toCharArray();
 		int len = arr.length,even = 0, odd = 0;
 		char even1[] = new char[len],odd1[] = new char[len];int j = 0,k = 0;
 		
