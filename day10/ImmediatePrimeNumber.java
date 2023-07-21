@@ -2,7 +2,7 @@ package Training;
 import java.util.*;
 
 public class ImmediatePrimeNumber {
-	
+	// it checks whether the number is prime or not.  if it is prime then it returns true;otherwise, returns false.
 	static boolean Prime(int num) {
 		if(num<=1)
 			return false;
@@ -17,7 +17,7 @@ public class ImmediatePrimeNumber {
 		Scanner sc = new Scanner(System.in);
 		
 		int num = sc.nextInt();
-		
+		// it checks immediate prime number to the left
 		int left = num -1;
 		
 		while(true) {
@@ -27,7 +27,7 @@ public class ImmediatePrimeNumber {
 			}
 			left--;
 		}
-		
+		// it checks immediate prime number to the right
 		int right = num+1;
 		while(true) {
 			if(Prime(right)) {
