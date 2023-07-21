@@ -13,7 +13,7 @@ public class StrinClass {
 		int left = 0, right = left+1;
 		
 		do {
-//			it leaves the white spaces but in some cases it won't work
+//			it leaves the white spaces but in some cases it won't work in some cases
 			/*if (text[left] == ' ' || text[right ]==' ') {
 				if(text.length%2 == 0) {
 				left +=1;
